@@ -1,3 +1,5 @@
+// The returns in this file are copies of actual returns given by the trello API (with false IDs etc)
+
 const testCard = {
   'id': '5d29a1bb3bokr2DFVs252f86a0268b',
   'checkItemStates': null,
@@ -113,7 +115,6 @@ const testMemberCard = {
 const testDeleteCard = {
   limits: {}
 }
-
 
 module.exports = {
   testCard,
