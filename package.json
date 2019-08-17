@@ -1,0 +1,32 @@
+{
+  "name": "trello-api-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --collectCoverage",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomjbast/trello-api-wrapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomjbast/trello-api-wrapper/issues"
+  },
+  "homepage": "https://github.com/tomjbast/trello-api-wrapper#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "save-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "nock": "^10.0.6",
+    "supertest": "^4.0.2"
+  }
+}
